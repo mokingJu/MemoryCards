@@ -1,0 +1,111 @@
+<!-- <meta content="text/html;charset=utf-8" http-equiv="Contenty-Type"> -->
+<meta content="utf-8" http-equiv="encoding">
+<html>
+	<head>
+		<title>Memory-cards Game</title>
+		<link href="mc_style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<center><h1 class="title" style="background-image:url(img/banniere_cartes.jpg)">MEMORY GAME</h1></center>	
+
+			<center>		
+				
+					<label class="lab_chrono  ">chrono :</label><span class="chrono" id="chronotime">0:00:00:00</span>
+					
+					<form class="chronoForm" name="chronoForm">		
+						<div class="button_cont" align="center">
+							<a class="example_c" href="#" target="_blank" rel="nofollow noopener" onclick="window.location.reload(true);">Appuyer pour recommencer</a>
+						</div>
+					</form>
+					
+					<section class="score">
+						<label>score :</label><span class="score" id="score">0</span>			
+					</section>
+				
+				<section class="board" name="board">	
+					<div class="memory-card" id="a1" name="l_div" >
+						<img class="face" id="a1f" src="img/v1.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="a1p" src="img/back_c.jpg" alt=1 style="visibility:visible;" />
+					</div>
+					<div class="memory-card" id="a2" name="l_div" ">
+						<img class="face" id="a2f" src="img/v1.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="a2p" src="img/back_c.jpg" alt=1 style="visibility:visible;"/>
+					</div>
+					
+					<div class="memory-card" id="b1" name="l_div">
+						<img class="face" id="b1f" src="img/v2.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="b1p" src="img/back_c.jpg" alt=2 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="b2" name="l_div" >
+						<img class="face" id="b2f" src="img/v2.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="b2p" src="img/back_c.jpg" alt=2 style="visibility:visible;"/>
+					</div>
+					
+					<div class="memory-card" id="c1" name="l_div" >
+						<img class="face" id="c1f" src="img/v3.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="c1p" src="img/back_c.jpg" alt=3 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="c2" name="l_div">
+						<img class="face" id="c2f" src="img/v3.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="c2p" src="img/back_c.jpg" alt=3 style="visibility:visible;"/>
+					</div>
+					
+					<div class="memory-card" id="d1" name="l_div" >
+						<img class="face" id="d1f" src="img/v4.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="d1p" src="img/back_c.jpg" alt=4 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="d2" name="l_div" >
+						<img class="face" id="d2f" src="img/v4.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="d2p" src="img/back_c.jpg" alt=4 style="visibility:visible;"/>
+					</div>
+
+					<div class="memory-card" id="e1" name="l_div" >
+						<img class="face" id="e1f" src="img/v5.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="e1p" src="img/back_c.jpg" alt=5 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="f2" name="l_div">
+						<img class="face" id="f2f" src="img/v5.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="f2p" src="img/back_c.jpg" alt=5 style="visibility:visible;"/>
+					</div>
+					
+					<div class="memory-card" id="g1" name="l_div" >
+						<img class="face" id="g1f" src="img/v6.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="g1p" src="img/back_c.jpg" alt=6 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="g2" name="l_div">
+						<img class="face" id="g2f" src="img/v6.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="g2p" src="img/back_c.jpg" alt=6 style="visibility:visible;"/>
+					</div>
+					
+					<div class="memory-card" id="h1" name="l_div" >
+						<img class="face" id="h1f" src="img/v7.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="h1p" src="img/back_c.jpg" alt=7 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="h2" name="l_div" >
+						<img class="face" id="h2f" src="img/v7.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="h2p" src="img/back_c.jpg" alt=7 style="visibility:visible;"/>
+					</div>
+					
+					<div class="memory-card" id="i1" name="l_div" >
+						<img class="face" id="i1f" src="img/v8.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="i1p" src="img/back_c.jpg" alt=8 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="i2" name="l_div" >
+						<img class="face" id="i2f" src="img/v8.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="i2p" src="img/back_c.jpg" alt=8 style="visibility:visible;"/>
+					</div>
+
+					<div class="memory-card" id="j1" name="l_div">
+						<img class="face" id="j1f" src="img/v9.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="j1p" src="img/back_c.jpg" alt=9 style="visibility:visible;"/>
+					</div>
+					<div class="memory-card" id="j2" name="l_div">
+						<img class="face" id="j2f" src="img/v9.jpg" alt="" style="visibility:hidden;"/>
+						<img class="pile" name="pile" id="j2p" src="img/back_c.jpg" alt=9 style="visibility:visible;"/>
+					</div>
+				</section>
+			</center>
+		<script src="mc_js.js"></script>				
+	</body>
+</html>	

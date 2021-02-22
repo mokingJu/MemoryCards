@@ -1,0 +1,139 @@
+			.title
+			{
+			  font-family:"Segoe print", Arial, Helvetica, sans-serif;
+			  color:#5D135D;
+			  font-size: 50px;
+			  -moz-box-shadow: 2px 2px 6px #888;  
+			  -webkit-box-shadow: 2px 2px 6px #888;
+			  padding:32px;
+			  line-height: 150px;
+			  text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
+			  font-weight:lighter 
+			  display:inline;
+			}
+
+		
+			body
+			{
+			height:23 0vh;     
+			background-color:#412929;
+			border: 2px solid black;
+			}
+			
+			
+			.score
+			{
+			padding-bottom: 50px;
+			margin-left: 250px;
+			}
+
+			.score label
+			{
+			font-family:"Segoe print", Arial, Helvetica, sans-serif;
+			width:150px;
+			height: 50px;
+			font-size: 30px;
+			color:#E11DEB;
+			}
+
+			.score span
+			{
+			 font-family:"Segoe print", Arial, Helvetica, sans-serif;
+			 font-size: 30px;
+			 color:white;
+			}	
+			
+			.score input::placeholder 
+			{
+			font-family:"Segoe print", Arial, Helvetica, sans-serif;
+			color: #5D135D;
+			font-size: 50px;			
+			}
+			
+			.chrono
+			{
+			font-family:"Segoe print", Arial, Helvetica, sans-serif;	
+			margin-left: 200px;
+			font-size: 30px;
+			margin-bottom: 100px;
+			color: white;	
+			}
+			
+			.lab_chrono
+			{
+			font-family:"Segoe print", Arial, Helvetica, sans-serif;	
+			margin-left: 368px;
+			width:150px;
+			height: 50px;
+			font-size: 30px;
+			color:#E11DEB;
+			}
+			
+			.chronoForm
+			{
+			margin-right:600px;
+			}
+			
+			.example_c 
+			{
+			font-family:"Segoe print", Arial, Helvetica, sans-serif;
+			color:  #E11DEB !important;
+			text-transform: uppercase;
+			text-decoration: none;
+			background: #AFA6A6;
+			padding: 20px;
+			border: 4px solid #494949 !important;
+			display: inline-block;
+			transition: all 0.4s ease 0s;
+			border-radius: 70px;
+			}
+			
+			.example_c:hover 
+			{
+			color: #ffffff !important;
+			background: #E11DEB;
+			border-color: gray !important;
+			transition: all 0.4s ease 0s;
+			}
+			
+			
+			.board
+			{
+			display:flex;
+			flex-wrap:wrap;
+			width: 50%;
+			border: 5px solid gray;
+			padding-left: 20px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			background-color: #AFA6A6;
+			border-radius: 40px;
+			}
+			
+			.memory-card
+			{
+			 border: 2px solid #E2D3D3;
+			 transform:scale(1);
+			 padding:0px;
+			 margin: 5px;
+			}
+			
+			.memory-card:hover  
+			{
+			 transform:scale(.97);
+			 transition: transform .1s;
+			 
+			}
+			
+			.memory-card:active
+			{
+			transform:rotateY(180deg);
+			transition: transform .2s;
+			}
+			
+			
+			.pile
+			{
+			position:absolute;
+			right:0px;
+			}

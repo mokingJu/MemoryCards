@@ -1,0 +1,1 @@
+Execute index.html in any Browser, please execute the game fullscreen and play, enjoy!
